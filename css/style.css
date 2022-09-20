@@ -121,6 +121,7 @@ header {
     display: flex;
     padding: 40px;
     justify-content: center;
+    flex-direction: row-reverse;
 }
 .contenitore-3{
     width: 90%;
@@ -130,7 +131,94 @@ header {
 }
 .contenitore-4{
     width: 90%;
-    display: flex;
+    text-align: center;
     padding: 40px;
     justify-content: center;
+}
+.text-contenitor-2{
+    align-items: center;
+}
+.text-contenitor-3{
+    background-image: url(../img/stars.svg);
+}
+
+ /* PULSANTE+FOOTER */
+
+.big-purple-button{
+    padding: 15px 15px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #7289da;
+    color: white;
+}
+
+
+.footer-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    color: white;
+    height: 400px;
+    width: 58%;
+    margin: auto;
+}
+.footer-box{
+    height: 380px;
+    width: 30%;
+}
+.larger-box{
+    width: 70%;
+}
+
+
+
+.colore-sfondo{
+    background-color: #23272a;
+}
+
+.purple-text{
+    color: #7289da;
+    margin-bottom: 10px;
+}
+.socialmedia{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.flag{
+    width: 25px;
+}
+
+
+.footer-ending-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 50%;
+    margin: auto;
+}
+.footer-ending{
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+}
+.footer-flex-ending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.logo-finale{
+    width: 40px;
+    text-align: center;
+}
+.footer-bt{
+    width: 60px;
+    text-align: center;
+}
+.purple-button{
+    background-color:purple;
+    color: white;
 }
