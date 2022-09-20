@@ -102,10 +102,35 @@ header {
 .header-content p {
 	margin-bottom: .5rem;
 }
+.text-contenitor{
+    justify-content: space-between;
+    width: 340px;
+
+}
+#testo{
+    margin: 55px;
+}
 .contenitore-1{
     width: 90%;
     display: flex;
-
-
-
+    padding: 40px;
+    justify-content: center;
+}
+.contenitore-2{
+    width: 90%;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+.contenitore-3{
+    width: 90%;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+.contenitore-4{
+    width: 90%;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
 }
